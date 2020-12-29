@@ -3,7 +3,7 @@ import { Box, Margins, ButtonGroup, Button, Icon, ActionButton } from '@rocket.c
 import { css } from '@rocket.chat/css-in-js';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';
-import VerticalBar from '../../../../client/components/VerticalBar';
+import VerticalBar from '../../../../client/components/basic/VerticalBar';
 import { withResponseData } from './withResponseData';
 
 const breakWord = css`word-break: break-word`;

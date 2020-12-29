@@ -4,7 +4,7 @@ import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';
 import { useForm } from '../../../../client/hooks/useForm';
-import VerticalBar from '../../../../client/components/VerticalBar';
+import VerticalBar from '../../../../client/components/basic/VerticalBar';
 import CannedResponsesForm from './CannedResponseForm';
 
 const CannedResponseEdit = ({ onSave, onReturn, onClose }) => {

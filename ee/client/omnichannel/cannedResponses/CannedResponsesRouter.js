@@ -6,7 +6,7 @@ import CannedResponseEdit from './CannedResponseEdit';
 import CannedResponseDetails from './CannedResponseDetails';
 import CannedResponseAdd from './CannedResponseAdd';
 import CannedResponsesList from './CannedResponsesList';
-import VerticalBar from '../../../../client/components/VerticalBar';
+import VerticalBar from '../../../../client/components/basic/VerticalBar';
 import { useCannedResponses } from './useCannedResponses';
 import { useTranslation } from '../../../../client/contexts/TranslationContext';
 import { useToastMessageDispatch } from '../../../../client/contexts/ToastMessagesContext';
