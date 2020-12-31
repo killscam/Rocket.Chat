@@ -1,4 +1,29 @@
 
+# 2.4.15
+`2020-12-31  ·  1 🐛  ·  1 🔍  ·  1 👩‍💻👨‍💻`
+
+### Engine versions
+- Node: `8.17.0`
+- NPM: `6.13.4`
+- MongoDB: ``
+
+### 🐛 Bug fixes
+
+
+- Issue with oembed
+
+<details>
+<summary>🔍 Minor changes</summary>
+
+
+- Regression: Fix oembed ([#19978](https://github.com/RocketChat/Rocket.Chat/pull/19978))
+
+</details>
+
+### 👩‍💻👨‍💻 Core Team 🤓
+
+- [@sampaiodiego](https://github.com/sampaiodiego)
+
 # 2.4.14
 `2020-12-18  ·  2 🐛  ·  1 👩‍💻👨‍💻`
 
@@ -1499,6 +1524,25 @@
 - [@rodrigok](https://github.com/rodrigok)
 - [@sampaiodiego](https://github.com/sampaiodiego)
 - [@tassoevan](https://github.com/tassoevan)
+
+# 1.3.5
+`2020-12-18  ·  2 🐛  ·  1 👩‍💻👨‍💻`
+
+### Engine versions
+- Node: `8.11.4`
+- NPM: `6.4.1`
+- MongoDB: `3.2, 3.4, 3.6, 4.0`
+
+### 🐛 Bug fixes
+
+
+- Issue with special message rendering ([#19817](https://github.com/RocketChat/Rocket.Chat/pull/19817))
+
+- Problem with attachment render ([#19854](https://github.com/RocketChat/Rocket.Chat/pull/19854))
+
+### 👩‍💻👨‍💻 Core Team 🤓
+
+- [@MartinSchoeler](https://github.com/MartinSchoeler)
 
 # 1.3.3
 `2019-11-19  ·  2 🐛  ·  2 👩‍💻👨‍💻`
@@ -10118,16 +10162,11 @@
 - [@rodrigok](https://github.com/rodrigok)
 
 # 0.55.0
-`2017-04-18  ·  1 ️️️⚠️  ·  9 🎉  ·  25 🐛  ·  87 🔍  ·  23 👩‍💻👨‍💻`
+`2017-04-18  ·  9 🎉  ·  23 🐛  ·  87 🔍  ·  23 👩‍💻👨‍💻`
 
 ### Engine versions
 - Node: `4.8.0`
 - NPM: `4.3.0`
-
-### ⚠️ BREAKING CHANGES
-
-
-- `getUsersOfRoom` API to return array of objects with user and username, instead of array of strings
 
 ### 🎉 New features
 
@@ -10152,10 +10191,6 @@
 
 ### 🐛 Bug fixes
 
-
-- Incoming integrations would break when trying to use the `Store` feature.`
-
-- Removed Deprecated Package rocketchat:sharedsecret`
 
 - emoji picker exception ([#6709](https://github.com/RocketChat/Rocket.Chat/pull/6709) by [@gdelavald](https://github.com/gdelavald))
 

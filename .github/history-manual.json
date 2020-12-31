@@ -28,5 +28,12 @@
 		"contributors": [
 			"sampaiodiego"
 		]
+	}],
+	"2.4.15": [{
+		"title": "[FIX] Issue with oembed",
+		"userLogin": "sampaiodiego",
+		"contributors": [
+			"sampaiodiego"
+		]
 	}]
 }
